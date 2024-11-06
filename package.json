@@ -1,6 +1,6 @@
 {
-  "name": "crypto-pro",
-  "version": "2.5.2",
+  "name": "crypto-pro-300",
+  "version": "3.0.0",
   "description": "API для взаимодействия с КриптоПро",
   "main": "./lib/crypto-pro.js",
   "types": "./lib/crypto-pro.d.ts",
@@ -23,8 +23,8 @@
     "pack:clean": "cross-env-shell rimraf $npm_package_name-$npm_package_version.tgz",
     "pack:uncompress": "cross-env-shell tar xopf $npm_package_name-$npm_package_version.tgz",
     "test": "jest --coverage && coveralls < coverage/lcov.info",
-    "lint": "eslint --config .eslintrc.js './src/**/*'",
-    "lint:fix": "eslint --fix --config .eslintrc.js './src/**/*'",
+    "lint": "eslint --config .eslintrc.js --ext .ts src",
+    "lint:fix": "eslint --fix --config .eslintrc.js --ext .ts src",
     "examples-update": "npm run examples-update:script-tag && npm run examples-update:angular && npm run examples-update:react",
     "examples-update:script-tag": "npm --prefix ./examples/script-tag r crypto-pro && npm --prefix ./examples/script-tag i crypto-pro",
     "examples-update:angular": "npm --prefix ./examples/angular r crypto-pro && npm --prefix ./examples/angular i crypto-pro",
@@ -36,7 +36,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vgoma/crypto-pro"
+    "url": "https://github.com/sergeilem/crypto-pro"
   },
   "author": {
     "name": "Vitalii Goma",
