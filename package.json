@@ -1,9 +1,10 @@
 {
-  "name": "crypto-pro-300",
-  "version": "3.0.0",
+  "name": "crypto-pro-ne",
+  "version": "3.0.2",
   "description": "API для взаимодействия с КриптоПро",
-  "main": "./lib/crypto-pro.js",
-  "types": "./lib/crypto-pro.d.ts",
+  "main": "./lib/crypto-pro-ne.js",
+  "module": "./lib/crypto-pro-ne.js",
+  "types": "./lib/crypto-pro-ne.d.ts",
   "files": [
     "lib/**/*",
     "dist/**/*",

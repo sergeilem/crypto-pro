@@ -14,7 +14,7 @@
     ]
   },
   "include": [
-    "src/crypto-pro-300.ts"
+    "src/crypto-pro-ne.ts"
   ],
   "exclude": [
     "node_modules"

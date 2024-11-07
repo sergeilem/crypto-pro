@@ -1,11 +1,3 @@
-[![NPM version][npm-version-image]][npm-url]
-[![NPM downloads][npm-downloads-image]][downloads-url]
-[![Build Status][travis-image]][travis-url]
-[![Coverage Status][coveralls-image]][coveralls-url]
-[![Examples][examples-image]][examples-url]
-[![Donate][donate-image]][donate-url]
-<a href="https://www.jetbrains.com/?from=crypto-pro" title="При поддержке Jetbrains"><img src="resources/logo-webstorm.svg" height="20"></a>
-
 <a name="cryptopro"></a>
 # cryptoPro
 Единое, асинхронное API для взаимодействия с КриптоПРО ЭЦП Browser Plug-In
